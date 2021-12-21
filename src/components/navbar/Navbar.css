@@ -1,0 +1,81 @@
+.container {
+  position: absolute;
+  top: 3rem;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100wh;
+}
+
+.navbar .logo {
+  margin-left: 55px;
+  margin-right: 510px;
+}
+
+.navbar .logo::after {
+  content: "";
+  color: #fff;
+  border-bottom: 0.2px solid #fff;
+  position: absolute;
+  left: 167px;
+  top: 47px;
+  width: 473px;
+  z-index: 100;
+}
+
+.navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 827px;
+  background-color: rgba(255, 255, 255, 0.04);
+  height: 6rem;
+  -webkit-backdrop-filter: blur(81.5485px);
+          backdrop-filter: blur(81.5485px);
+}
+
+.navbar .nav a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.7px;
+  color: #fff;
+  margin-left: 48px;
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navbar .nav a:hover {
+  border-bottom: 1px solid #fff;
+  padding-top: 35px;
+}
+
+.navbar .nav a span {
+  font-weight: 700;
+}
+
+.navbar .nav a:active {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 40px;
+}
+
+.navbar .nav a:first-child {
+  margin-left: 123px;
+}
+
+.navbar .nav a span {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=Navbar.css.map */
